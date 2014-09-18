@@ -1,0 +1,426 @@
+<html>
+<body>
+<div class="tx-tdcalendar-pi1">
+
+<!-- ###LIST_VIEW### begin -->
+      	<div class="viewheader">
+			<h5 >###VIEW_TITLE###</h5>
+			<div class="selector">###CATEGORY_TITLE###</div>
+		</div>
+      	<div class="tdcalendar_list">
+        	<table class="items">
+	        	<!-- ###ITEM### begin -->
+	    			<tr>
+					<td class="catcolor ###ODD_EVEN###" style="background: ###CATCOLOR###;">
+						&nbsp;
+	          			</td>  
+	          			<td class="label ###ODD_EVEN###">
+							<div class="date">###DATE_BEGIN###</div>
+	            			<div class="time">###TIME_BEGIN###</div>
+	            			<div class="category">###CATEGORY###</div>
+	          			</td>
+	          			<td class="item ###ODD_EVEN###">
+	            			<h5>###TITLE###</h5>
+	            			<div class="teaser">###TEASER###<span class="readmore">###READ_MORE###</span></div>
+	          			</td>  
+          			</tr>	
+	       		<!-- ###ITEM### end -->
+        	</table>  
+      	</div>
+   
+		<div class="ALL_EVENTS">###ALL_EVENTS###</div>
+      	
+		<!-- ###SUBMIT_EVENT### begin  -->
+	  		<div class="submit">###SUBMIT_EVENT###</div>
+   		<!-- ###SUBMIT_EVENT### end  -->
+<!-- ###LIST_VIEW### end -->
+
+<!-- ###MONTH_VIEW### begin -->
+	<div class="viewheader ###CLASS###">
+		<h5 >###VIEW_TITLE### - ###TIME_INFO###</h5>
+	
+		<div class="browse_month">
+			<table class="navs">
+	       		<tr>
+          		<!-- ###GO_LAST_YEAR### begin  -->
+          	 		<td class="year">
+						###DATA###
+					</td>
+	      			<!-- ###GO_LAST_YEAR### end  -->
+          	 		<td>
+						<table class="months" cellspacing="10">
+						<!-- ###MONTH_NAVI### begin -->
+						<!-- ###MONTH_ROW### begin -->
+							<tr>
+							<!-- ###MONTHS### begin  -->
+							<!-- ###CURRENT_MONTH### begin  -->
+								<td class="current_month">###DATA###</td>
+							<!-- ###CURRENT_MONTH### end  -->
+							<!-- ###OTHER_MONTH### begin  -->
+								<td class="other_month">###DATA###</td>
+							<!-- ###OTHER_MONTH### end  -->
+							<!-- ###MONTHS### end  -->
+							</tr>
+						<!-- ###MONTH_ROW### end -->
+						<!-- ###MONTH_NAVI### end -->
+						</table>
+	       			</td>
+					<!-- ###GO_NEXT_YEAR### begin  -->
+          	 		<td class="year">
+			          	###DATA###
+          	 		</td>
+	          	<!-- ###GO_NEXT_YEAR### end  -->
+				</tr>
+			</table>
+   		</div>
+		
+		<div class="selector">###CATEGORY_TITLE###</div>
+	</div>
+	<div class="tdcalendar_month ###CLASS###">
+        <!-- ###CALENDAR_TABLE### begin -->
+          	<table class="days">
+            	<!-- ###TABLE### begin  -->
+            	<!-- ###DAYNAMES### begin  -->
+            	<tr>
+			<!-- ###CORNER### begin  -->
+			<td class="dayname">KW</td>
+			<!-- ###CORNER### end  -->
+			<!-- ###DAYNAME### begin  -->
+              		<td class="dayname">###DATA###</td>
+              		<!-- ###DAYNAME### end  -->
+	            	</tr>
+            	<!-- ###DAYNAMES### end  -->
+            	<!-- ###WEEKS### begin  -->
+            	<tr>
+              		<td class="week">&nbsp;</td>
+              		<!-- ###WEEK### begin  -->
+               		<td class="week">###DATA###</td>
+              		<!-- ###WEEK### end  -->
+            	</tr>
+            	<!-- ###WEEKS### end  -->
+            	<!-- ###WEEKDAYS### begin  -->
+            	<tr>
+              		<!-- ###WEEK### begin  -->
+                		<td class="week">###DATA###</td>
+              		<!-- ###WEEK### end  -->
+			<!-- ###DAYNAME### begin  -->
+              			<td class="dayname">###DATA###</td>
+			<!-- ###DAYNAME### end  -->
+              		<!-- ###DAYS### begin  -->
+                	<!-- ###DAY_INSIDE_MONTH### begin  -->
+                	<td class="inside"###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div>
+						###DATA###
+					</td>
+                	<!-- ###DAY_INSIDE_MONTH### end  -->
+                	<!-- ###DAY_OUTSIDE_MONTH### begin -->
+					<td class="outside" ###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div> 
+						###DATA###
+					</td>
+                	<!-- ###DAY_OUTSIDE_MONTH### end  -->
+                	<!-- ###TODAY### begin  -->
+                	<td class="today"###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div> 
+						###DATA###
+					</td>
+                	<!-- ###TODAY### end  -->
+              		<!-- ###DAYS### end  -->
+            	</tr>
+            	<!-- ###WEEKDAYS### end  -->
+            	<!-- ###WEEKEND### begin  -->
+            	<tr>
+              		<!-- ###WEEK### begin  -->
+                		<td class="week">###DATA###</td>
+              		<!-- ###WEEK### end  -->
+						<!-- ###DAYNAME### begin  -->
+              			<td class="dayname">###DATA###</td>
+						<!-- ###DAYNAME### end  -->
+              		<!-- ###DAYS### begin  -->
+                	<!-- ###DAY_INSIDE_MONTH### begin  -->
+	                <td class="inside_weekend" ###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div>
+						###DATA###
+					</td>
+                	<!-- ###DAY_INSIDE_MONTH### end  -->
+                	<!-- ###DAY_OUTSIDE_MONTH### begin  -->
+                	<td class="outside_weekend"###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div> 
+						###DATA###
+					</td>
+                	<!-- ###DAY_OUTSIDE_MONTH### end  -->
+                	<!-- ###TODAY### begin  -->
+                	<td class="today" ###COLOR###>
+						<div class="single_day">###SINGLE_DAY###</div> 
+						###DATA###
+					</td>
+                	<!-- ###TODAY### end  -->
+              		<!-- ###DAYS### end  -->
+            	</tr>
+            	<!-- ###WEEKEND### end  -->
+        	<!-- ###TABLE### end  -->
+		</table>
+        <!-- ###CALENDAR_TABLE### end -->
+        
+	<!-- ###SUBMIT_EVENT### begin -->
+      	<div class="submit">###SUBMIT_EVENT###</div>
+	<!-- ###SUBMIT_EVENT### end -->
+	</div>
+<!-- ###MONTH_VIEW### end -->
+
+<!-- ###SINGLE_ITEM### begin -->
+		<div class="dayitem" style="border-color:###CATCOLOR###;">
+			<div class="itemcat" style="background-color:###CATCOLOR###;">
+					###CAT###
+			</div>
+			<div class="item">
+				###ITEM###
+			</div>
+		</div>
+<!-- ###SINGLE_ITEM### end -->
+
+<!-- ###WEEK_VIEW### begin -->
+	<div class="viewheader">
+		<h5>###VIEW_TITLE###</h5>
+		<div class="browse">###PREW_WEEK### <span class="timeinfo">###TIME_INFO###</span> ###NEXT_WEEK###</div>
+		###CATEGORY_TITLE###
+	</div>
+	<div class="tdcalendar_week">
+	<!-- ###WEEK_TABLE### begin -->
+		<table class="week">
+			<!-- ###TIMES### begin  -->
+				<tr>
+					<td class="dayname"></td>
+					<!-- ###TIME### begin  -->
+					<td class="time">###DATA###</td>
+					<!-- ###TIME### end  -->
+				</tr>
+			<!-- ###TIMES### end  -->
+			<!-- ###DAYS### begin -->
+				<tr>
+					<!-- ###DAYEVENT### begin  -->
+						<!-- ###DAY### begin-->
+						<td class ="dayname" rowspan="###ROWSPAN###">###DATA###</td>
+						<!-- ###DAY### end -->
+					
+						<!-- ###EVENT_TIME### begin  -->
+						<td class="event_time" colspan="###COLSPAN###" ###STYLE###></td>
+						<!-- ###EVENT_TIME### end  -->
+					
+						<!-- ###EVENT### begin  -->
+						<td class="event" colspan="###COLSPAN###" ###STYLE###>###DATA###</td>
+						<!-- ###EVENT### end  -->
+						
+						<!-- ###EXCEVENT### begin  -->
+						<td class="exceventcon" colspan="###COLSPAN###" ###STYLE###>###DATA###</td>
+						<!-- ###EXCEVENT### end  -->
+						
+						<!-- ###EMPTY_CELL### begin -->
+						<td class="###CLASS###" colspan="###COLSPAN###" ###STYLE###></td>
+						<!-- ###EMPTY_CELL### end -->
+					<!-- ###DAYEVENT### end -->
+				</tr>
+			<!-- ###DAYS### end -->
+		</table>
+	<!-- ###WEEK_TABLE### end -->
+	<!-- ###SUBMIT_EVENT### begin -->
+      	<div class="submit">###SUBMIT_EVENT###</div>
+	<!-- ###SUBMIT_EVENT### end -->
+	</div>
+<!-- ###WEEK_VIEW### end -->
+
+<!-- ###DAY_VIEW### begin -->
+	<div class="viewheader">
+		<h5>###VIEW_TITLE###</h5>
+		<div class="browse">###PREW_DAY### <span class="timeinfo">###TIME_INFO###</span> ###NEXT_DAY###</div>
+		###CATEGORY_TITLE###
+	</div>
+	<!--###DAY_TABLE### begin-->
+	<div class="tdcalendar_day">
+	<table class="singleday">
+		<!-- ###EXCEVENTS### begin-->
+			<tr>
+				<!-- ###EMPTY_TIME### begin-->
+					<td class="time"> </td>
+				<!-- ###EMPTY_TIME### end-->
+			
+				<!-- ###EXCEVENT### begin-->
+					<td class="excevent" colspan="###COLSPAN###" ###STYLE###>
+						###DATA###
+					</td>
+				<!-- ###EXCEVENT### end-->
+			
+				<!-- ###EMPTY_CELL### begin-->
+					<td ###STYLE###> </td>
+				<!-- ###EMPTY_CELL### end-->
+			</tr>
+		<!-- ###EXCEVENTS### end-->
+		<!-- ###HOURS### begin-->
+			<tr>
+				<!-- ###TIME### begin-->
+					<td class="time">###DATA###:00</td>
+				<!-- ###TIME### end-->
+			
+				<!-- ###EVENT### begin-->
+					<td class="event" rowspan="###ROWSPAN###" ###STYLE###>
+						<div class="event_cats" style="background: ###COLOR###">###CATEGORY###</div>
+						<div class="content">###DATA###</div>
+					</td>
+				<!-- ###EVENT### end-->
+			
+				<!-- ###EMPTY_CELL### begin-->
+					<td ###STYLE###> </td>
+				<!-- ###EMPTY_CELL### end-->
+			</tr>
+		<!-- ###HOURS### end-->
+	</table>
+	</div>
+	<!--###DAY_TABLE### end-->
+	<!-- ###SUBMIT_EVENT### begin -->
+      	<div class="submit">###SUBMIT_EVENT###</div>
+	<!-- ###SUBMIT_EVENT### end -->
+<!-- ###DAY_VIEW### end -->
+
+<!-- ###TOOLTIP### begin -->
+	<div class="td-tooltip-container" id="###TOOLTIP_ID###">
+		<h4>###TITLE###</h4>
+		###IMAGE###
+		<p>###TEASER###</p>
+		###BEGIN_LABEL###
+		<div class="item">###BEGIN_DATE### ###AT_LABEL### ###BEGIN_TIME###</div>
+	    <!-- ###CUT_END### begin -->
+			###END_LABEL###
+			<div class="item">###END_DATE### ###AT_LABEL### ###END_TIME###</div>
+		<!-- ###CUT_END### end -->
+		<div class="clear"> </div>
+	</div>
+<!-- ###TOOLTIP### end -->
+
+<!-- ###SINGLE_VIEW### begin -->
+	<div class="viewheader">
+		<h5>###VIEW_TITLE###</h5>
+	</div>
+
+	<div class="tdcalendar_single">
+   		<div class="category"><span class="catcolor" style="background: ###COLOR###">&nbsp;</span> ###CATEGORY###</div>
+   		<div class="content">
+			<h4 class="itemtitle">###TITLE###</h4>
+   			<div class="itemcontent">
+	   		###IMAGE###
+				<div class="itemtext">
+					###TEASER###
+					###DESCRIPTION###
+					###LINK###
+				</div>
+				
+			</div>
+			<div class="clear"> </div>
+			<div class="org">
+				<!-- ###CUT_ORGANIZER### begin -->
+					###ORGANIZER_LABEL###
+					<div class="item">###ORGANIZER### <br />###EMAIL###</div>
+				<!-- ###CUT_ORGANIZER### end -->
+				<!-- ###CUT_LOCATION### begin -->
+					###LOCATION_LABEL###
+					<div class="item">###LOCATION###</div>
+				<!-- ###CUT_LOCATION### end -->
+					###BEGIN_LABEL###
+					<div class="item">###BEGIN_DATE### ###AT_LABEL### ###BEGIN_TIME###</div>
+				<!-- ###CUT_END### begin -->
+					###END_LABEL###
+					<div class="item">###END_DATE### ###AT_LABEL### ###END_TIME###</div>
+				<!-- ###CUT_END### end -->
+					<div class="clear"> </div>
+			</div>
+		</div>
+		###SUBMIT_EVENT###
+	</div>
+<!-- ###SINGLE_VIEW### end -->
+
+<!-- ###ORGANIZER_VIEW### begin -->
+		<div class="viewheader">
+			<h5>###VIEW_TITLE###</h5>
+		</div>
+		<div class="tdcalendar_organizer">
+			<h4 class="title">###NAME###</h4>
+			<div class="itemcontent">
+	     		###IMAGE###
+	     		###DESCRIPTION###
+	        </div>
+			<div class="org">
+				<!-- ###CUT_ADDRESS### begin -->
+					###ADDRESS_LABEL###
+					<div class="addritem">###ADDR_NAME###<br />###STREET###<br />###ZIP###  ###CITY###</div>
+				<!-- ###CUT_ADDRESS### end -->
+				<!-- ###CUT_PHONE### begin -->
+					###PHONE_LABEL###
+					<div class="item">###PHONE###</div>
+				<!-- ###CUT_PHONE### end -->
+	          	<!-- ###CUT_EMAIL### begin -->
+	        		###EMAIL_LABEL###
+		        	<div class="item">###EMAIL###</div>
+	          	<!-- ###CUT_EMAIL### end -->
+	          	<!-- ###CUT_LINK### begin -->
+        			###LINK_LABEL###
+		        	<div class="item">###LINK###</div>
+	          	<!-- ###CUT_LINK### end -->
+					<div class="clear"> </div>
+			</div> 
+			###BACK###
+	    </div>
+<!-- ###ORGANIZER_VIEW### end -->
+
+<!-- ###LOCATION_VIEW### begin -->
+		<div class="viewheader">
+			<h5>###VIEW_TITLE###</h5>
+		</div>
+		<div class="tdcalendar_location">
+			<h4 class="title">###LOCATION###</h4>
+			<div class="itemcontent">
+	     		###IMAGE###
+	     		###DESCRIPTION###
+	        </div>
+			<div class="org">
+				<!-- ###CUT_ADDRESS### begin -->
+					###ADDRESS_LABEL###
+					<div class="addritem">###ADDR_NAME###<br />###STREET###<br />###ZIP###  ###CITY###</div>
+				<!-- ###CUT_ADDRESS### end -->
+				<!-- ###CUT_PHONE### begin -->
+					###PHONE_LABEL###
+					<div class="item">###PHONE###</div>
+				<!-- ###CUT_PHONE### end -->
+	          	<!-- ###CUT_EMAIL### begin -->
+	        		###EMAIL_LABEL###
+		        	<div class="item">###EMAIL###</div>
+	          	<!-- ###CUT_EMAIL### end -->
+	          	<!-- ###CUT_LINK### begin -->
+        			###LINK_LABEL###
+		        	<div class="item">###LINK###</div>
+	          	<!-- ###CUT_LINK### end -->
+					<div class="clear"> </div>
+			</div> 
+			###BACK###
+	    </div>
+<!-- ###LOCATION_VIEW### end -->
+
+<!-- ###SELECT_VIEW### begin -->
+	<select name="###NAME###" class="tx_td_select" onChange="###ONCHANGE###" size="###SIZE###">
+		<!-- ###OPTIONS### begin -->
+			<!-- ###EMPTY_OPTION### begin -->
+				<option>###EMPTY_TITLE###</option>
+			<!-- ###EMPTY_OPTION### end -->
+			<!-- ###OPTION### begin -->
+				<option value="###VALUE###" ###SELECTED###>###LABEL###</option>
+			<!-- ###OPTION### end -->
+		<!-- ###OPTIONS### end -->
+	</select>
+<!-- ###SELECT_VIEW### begin -->
+
+<!-- ###EXCEVENT_VIEW### begin -->
+	<div class="excevent" style="###COLOR###">
+		###EXC_TITLE###
+	</div>
+<!-- ###EXCEVENT_VIEW### end -->
+</div>
+</body>
+</html>

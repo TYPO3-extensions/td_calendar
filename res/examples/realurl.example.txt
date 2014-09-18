@@ -1,0 +1,127 @@
+// EXAMPLE 1
+// Realurl - Configuration for td calendar by Thomas Dudzak
+// with numeric rendering of variables
+// Configuration for td calendar
+'cdate' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[year]',
+	),
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[month]',
+		'valueMap' => array(
+			'january' => '1',
+			'february' => '2',
+			'march' => '3',
+			'april' => '4',
+			'may' => '5',
+			'june' => '6',
+			'july' => '7',
+			'august' => '8',
+			'september' => '9',
+			'october' => '10',
+			'november' => '11',
+			'december' => '12',
+		),
+	),
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[day]',
+	),
+),
+'ccat' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[category]',
+	),
+),
+'cevent' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[event]',
+	),
+),
+'corganizer' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[organizer]',
+	),
+),
+'clocation' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[location]',
+	),
+),
+
+// EXAMPLE 2
+// Realurl - Configuration for td calendar by Holger Hinkerohe
+// with title rendering (like tt_news)
+'date' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[year]',                                          
+		),
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[month]',
+		),
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[day]',
+		),
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[event]',
+		'lookUpTable' => array (
+			'table' => 'tx_tdcalendar_events',
+			'id_field' => 'uid',
+			'alias_field' => 'title',
+			'addWhereClause' => ' AND NOT deleted',
+			'useUniqueCache' => '1',
+			'useUniqueCache_conf' => array (
+				'strtolower' => '1',
+				'spaceCharacter' => '-',
+				 ),
+		 	),
+		),
+    									
+	),
+'category' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[category]',
+		'lookUpTable' => array (
+			'table' => 'tx_tdcalendar_categories',
+			'id_field' => 'uid',
+			'alias_field' => 'title',
+			'addWhereClause' => ' AND NOT deleted',
+			'useUniqueCache' => '1',
+			'useUniqueCache_conf' => array (
+				'strtolower' => '1',
+				'spaceCharacter' => '-',
+				 ),
+			 ),
+		),
+	),
+'organizer' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[organizer]',
+		'lookUpTable' => array (
+			'table' => 'tx_tdcalendar_organizer',
+			'id_field' => 'uid',
+			'alias_field' => 'name',
+			'addWhereClause' => ' AND NOT deleted',
+			'useUniqueCache' => '1',
+			'useUniqueCache_conf' => array (
+				'strtolower' => '1',
+				'spaceCharacter' => '-',
+				 ),
+			 ),
+		),
+	),
+'location' => array(
+	array(
+		'GETvar' => 'tx_tdcalendar_pi1[location]',
+		'lookUpTable' => array (
+			'table' => 'tx_tdcalendar_locations',
+			'id_field' => 'uid',
+			'alias_field' => 'location',
+			'addWhereClause' => ' AND NOT deleted',
+			'useUniqueCache' => '1',
+			'useUniqueCache_conf' => array (
+				'strtolower' => '1',
+				'spaceCharacter' => '-',
+				 ),
+			),
+		),
+	),

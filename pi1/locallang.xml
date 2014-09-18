@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_tdcalendar_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="stdDateFormat">%a, %b %d, %Y</label>
+			<label index="stdTimeFormat">%H:%M</label>
+			<label index="events">Events</label>
+			<label index="noTemplateFile">td_calendar: no template file found:</label>
+			<label index="titleMonthView">Month view</label>
+			<label index="titleWeekView">Week view</label>
+			<label index="titleDayView">Day view</label>
+			<label index="titleListView">Upcoming Events</label>
+			<label index="titleUpcomingView">Upcoming Events</label>
+			<label index="week">Week </label>
+			<label index="singleEventTitle">Single View</label>
+			<label index="readMoreLinkLabel">[more] </label>
+			<label index="locationLabel">Location</label>
+			<label index="organizerLabel">Organizer</label>
+			<label index="beginLabel">Begin</label>
+			<label index="endLabel">End</label>
+			<label index="atLabel">at</label>
+			<label index="week_prev">&lt;&lt;</label>
+			<label index="week_next">&gt;&gt;</label>
+			<label index="day_prev">&lt;&lt;</label>
+			<label index="day_next">&gt;&gt;</label>
+			<label index="allday">All-day:</label>
+			<label index="alldayLabel">, all-day</label>
+			<label index="organizerTitle">Organizer</label>
+			<label index="locationTitle">Location</label>
+			<label index="emailLabel">E-mail</label>
+			<label index="phoneLabel">Phone</label>
+			<label index="homepageLabel">Homepage</label>
+			<label index="addressLabel">Adress</label>
+			<label index="NoEventUID">Upps, there\'s an error: No UID found.</label>
+			<label index="NoEventFound">Upps, there\'s an error: No Event found.</label>
+			<label index="NoOrganizerFound">Upps, there\'s an error: No Organizer found.</label>
+			<label index="NoLocationFound">Upps, there\'s an error: No Location found.</label>
+			<label index="readMore">more...</label>
+			<label index="allCats">all...</label>
+			<label index="allEvents">All events</label>
+			<label index="backButtonLabel">back</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="stdDateFormat">%a, %d.%b.%Y</label>
+			<label index="stdTimeFormat">%H:%M</label>
+			<label index="events">Ereignisse</label>
+			<label index="noTemplateFile">td_calendar: Keine Vorlagendatei gefunden:</label>
+			<label index="titleMonthView">Monatsansicht</label>
+			<label index="titleWeekView">Wochenansicht</label>
+			<label index="titleDayView">Tagesansicht</label>
+			<label index="titleListView">Aktuelle Termine</label>
+			<label index="titleUpcomingView">Kommende Termine</label>
+			<label index="week">Woche </label>			
+			<label index="singleEventTitle">Einzelansicht</label>
+			<label index="readMoreLinkLabel">[mehr] </label>
+			<label index="locationLabel">Veranstaltungsort</label>
+			<label index="organizerLabel">Veranstalter</label>
+			<label index="beginLabel">Beginn</label>
+			<label index="endLabel">Ende</label>
+			<label index="atLabel">um</label>
+			<label index="week_prev">&lt;&lt;</label>
+			<label index="week_next">&gt;&gt;</label>
+			<label index="day_prev">&lt;&lt;</label>
+			<label index="day_next">&gt;&gt;</label>
+			<label index="allday">Ganztägig:</label>
+			<label index="alldayLabel">, ganztägig</label>
+			<label index="organizerTitle">Veranstalter</label>
+			<label index="locationTitle">Veranstaltungsort</label>
+			<label index="emailLabel">E-Mail</label>
+			<label index="phoneLabel">Telefon</label>
+			<label index="homepageLabel">Homepage</label>
+			<label index="addressLabel">Adresse</label>
+			<label index="NoEventUID">Upps, ein Fehler ist aufgetreten: Keine UID gefunden.</label>
+			<label index="NoEventFound">Upps, ein Fehler ist aufgetreten: Keine Veranstaltung gefunden.</label>
+			<label index="NoOrganizerFound">Upps, ein Fehler ist aufgetreten: Kein Veranstalter gefunden.</label>
+			<label index="NoLocationFound">Upps, ein Fehler ist aufgetreten: Kein Veranstaltungsort gefunden.</label>
+			<label index="readMore">mehr...</label>
+			<label index="allCats">Alle...</label>
+			<label index="allEvents">Alle Termine</label>
+			<label index="backButtonLabel">Zurück</label>
+		</languageKey>
+	</data>
+</T3locallang>

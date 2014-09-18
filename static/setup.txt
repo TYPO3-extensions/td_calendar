@@ -1,0 +1,132 @@
+plugin.tx_tdcalendar_pi1 {
+	jQueryRes = {$plugin.tx_tdcalendar_pi1.jQueryRes}
+	tooltipJSRes = {$plugin.tx_tdcalendar_pi1.tooltipJSRes}
+	cssFile = {$plugin.tx_tdcalendar_pi1.cssFile}
+	templateFile = {$plugin.tx_tdcalendar_pi1.templateFile}
+
+	view = MONTH
+	categoryMode = 0 
+	pidList = {$plugin.tx_tdcalendar_pi1.pidList}
+	PIDeventDisplay = {$plugin.tx_tdcalendar_pi1.PIDeventDisplay}
+	recursive = {$plugin.tx_tdcalendar_pi1.recursive}
+	
+	parseFunc < lib.parseFunc_RTE 
+	
+	hideExcEvents = 0 
+	showEventBegin = 0
+	hideCategorySelection = 0 
+	
+	viewTitleWrap = |
+	titleWrap = |
+	teaserWrap = <p class="teaser"> | </p>
+	descWrap = <p class="desc"> | </p>
+	itemLinkWrap = <p class="itemlink"> | </p>
+	labelWrap = <div class="label"> | :</div>
+	imageWrap = <div class ="tdcalendar-imagewrap> | </div> 
+	imageMode = resize2max
+	hideImageCaption = 1
+	showMultiDayOnlyOnce = 0 
+	forceSamePageFunc = 0 
+	
+	croppingLenght = 100 |...| true
+
+	caption_stdWrap {
+		trim = 1
+		required =
+		wrap = <p class="tdcalendar-imgcaption">|</p>
+	}
+
+	image {
+		enable = 1
+		file.maxW = {$plugin.tx_tdcalendar_pi1.maxW}
+		file.maxH = {$plugin.tx_tdcalendar_pi1.maxH}
+		wrap =
+		imageLinkWrap = 1
+		imageLinkWrap {
+		   enable = 1
+		   JSwindow = 0
+		   directImageLink = 1
+		   linkParams.ATagParams { 
+				dataWrap = class = "lightbox" data-fancybox-group="{field:uid}"
+			}
+		}	
+	 }	
+    showTooltips = 1
+    showTooltipImage = 1
+	
+	#******************************
+	# Month View Settings
+	#******************************/	
+	monthView {
+		miniCalendar = 0
+		PIDdayDisplay = {$plugin.tx_tdcalendar_pi1.PIDdayDisplay}
+		PIDlistDisplay = {$plugin.tx_tdcalendar_pi1.PIDlistDisplay}
+		PIDweekDisplay = {$plugin.tx_tdcalendar_pi1.PIDweekDisplay}
+		showWeeksAsRows = 0 
+		onlyDaysofMonth = 0
+		dayFormat = {$plugin.tx_tdcalendar_pi1.dayFormat}
+		maxDaynameLenght = 2
+		showWeeksDisabled = 0 
+		wrapItemCatLen = 8
+	}
+	
+	#******************************
+	# Week View Settings
+	#******************************
+	 
+	weekView {
+		PIDlistDisplay = {$plugin.tx_tdcalendar_pi1.PIDlistDisplay}
+		startHour = 0 
+		endHour = 24
+		showAsList = 0
+	}
+	
+	#******************************
+	# Day View Settings
+	#******************************
+	 
+	dayView {
+		PIDlistDisplay = {$plugin.tx_tdcalendar_pi1.PIDlistDisplay}
+		startHour = 0 
+		endHour = 24
+		additionalColumnAtEnd = 0 
+		showAsList = 0 
+	}
+	
+	#******************************
+	# List View Settings
+	#******************************
+	 
+	listView {
+		showTooltips = 0
+		listEntryCount = 5
+		listStartTime = 
+		PIDallEventsDisplay = {$plugin.tx_tdcalendar_pi1.PIDallEventsDisplay}
+		croppingLenght = 300|...|true
+	}
+	
+	#******************************
+	# Single View Settings
+	#******************************
+	
+   	singleView {
+		hideImageCaption = 0
+		singleViewIsShy = 0 
+		
+		image {
+			file.maxW = {$plugin.tx_tdcalendar_pi1.singleMaxW}
+			file.maxH = {$plugin.tx_tdcalendar_pi1.singleMaxH}
+			imageLinkWrap = 1
+			imageLinkWrap {
+				enable = 1
+				bodyTag = <body bgColor="#ffffff" style="margin:0;">
+				wrap = <a href="javascript:close();"> | </a>
+				width = 800m
+				height = 600
+				JSwindow = 1
+				JSwindow.newWindow = 1
+				JSwindow.expand = 0,0
+			}			
+		}
+	}
+}

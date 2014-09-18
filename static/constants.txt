@@ -1,0 +1,54 @@
+plugin.tx_tdcalendar_pi1 {
+	# cat=plugin.tx_tdcalendar_pi1/file/010; type=file[js]; label=jQuery Library: Location of the jQuery Lib
+	jQueryRes = EXT:td_calendar/res/js/jquery-1.11.1.min.js
+	# cat=plugin.tx_tdcalendar_pi1/file/020; type=file[js]; label=Tooltip Script: Location of the js-Script
+	tooltipJSRes = EXT:td_calendar/res/js/td_tooltips.js
+	# cat=plugin.tx_tdcalendar_pi1/file/030; type=file[html,htm,tmpl,txt]; label=Template File: HTML-template file for display of the calendar.
+	templateFile = EXT:td_calendar/res/tmpl/td_calendar.tmpl
+	# cat=plugin.tx_tdcalendar_pi1/file/040; type=file[css]; label=CSS File: CSS file for template files.
+	cssFile = EXT:td_calendar/res/tmpl/td_calendar.css
+  
+	# cat=plugin.tx_tdcalendar_pi1/links/1; type=text; label= Starting Point (pidList): The PID of the page (or comma separated list of PIDs) where your calendar records are located.
+	pidList = 0 
+	# cat=plugin.tx_tdcalendar_pi1/links/2; type=int+; label= PIDeventDisplay: The PID of the page on which single event items should be displayed
+	PIDeventDisplay = 0
+	# cat=plugin.tx_tdcalendar_pi1/links/3; type=int+; label= PIDdayDisplay: The PID of the page on which calendar day view should be displayed (for mini calendar)
+	PIDdayDisplay = 0
+	# cat=plugin.tx_tdcalendar_pi1/links/4; type=int+; label= PIDallEventsDisplay: The PID of the page on which the upcoming events plugin should link
+	PIDallEventsDisplay = 0
+	recursive = 2
+  
+	dayFormat = %d
+  	
+	# cat=plugin.tx_tdcalendar_pi1/links/5; type=int+; label= PIDlistDisplay: The PID of the page on which the upcoming events should be displayed
+	PIDlistDisplay = 0
+	# cat=plugin.tx_tdcalendar_pi1/links/6; type=int+; label= PIDweekDisplay: The PID of the page on which the weekview should be displayed
+	PIDweekDisplay = 0
+	# cat=plugin.tx_tdcalendar_pi1/dims/1; type=text; label= Image MaxW: Maximal width of images
+	maxW = 100
+	# cat=plugin.tx_tdcalendar_pi1/dims/2; type=text; label= Image MaxH: Maximal height of images.
+	maxH = 75
+	# cat=plugin.tx_tdcalendar_pi1/dims/3; type=text; label= Single Image MaxW: Maximal width of images in single view.
+	singleMaxW = 300 
+	# cat=plugin.tx_tdcalendar_pi1/dims/4; type=text; label= Single Image MaxH: Maximal height of images in single view.
+	singleMaxH = 200
+  
+	typolink {
+		target >
+		extTarget >
+		wrap = |
+	}
+
+	parseFunc {
+		denyTags = 
+		allowTags = * 
+		#h1,h2,h3,h4,h5,b,i,u,a,img,br,div,center,pre,font,hr,sub,sup,p,strong,em,li,ul,ol,blockquote,strike,span
+		
+		links {
+			extTarget = _top
+			target = page
+			wrap = <u>|</u>
+		}
+		mail.wrap = <u>|</u>
+	}
+}

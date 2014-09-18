@@ -1,0 +1,5 @@
+  # cat=basic/enable/100; type=boolean; label=Use Mounting Points:Instead of presenting all kind of categories, exception events, locations and organizer to be_users, you can define storage pagesfor be_useres and be_groups. (def: 0)
+useCategoryMounts = 0
+
+  # cat=basic/enable/100; type=int; label=Maximal recursion level for Mounting Points:Selects all kind of categories, exception events, locations and organizer from all storage pages and subpages in defined recursion level (def: 0)
+categoryMountRecursive = 0

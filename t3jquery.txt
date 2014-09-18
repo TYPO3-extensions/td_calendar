@@ -1,0 +1,2 @@
+script=res/js/td_tooltips.js
+components=jQuery,Core

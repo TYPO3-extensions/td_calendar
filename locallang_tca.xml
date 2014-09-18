@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>language labels for td_calendar BE forms</description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<fileId>EXT:td_calendar/locallang_tca.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="td_calendar">Calendar</label>
+			<label index="td_calendar.pi_flexform.sheet_general">General Settings</label>
+			<label index="td_calendar.pi_flexform.sheet_monthView">Display Settings</label>
+			<label index="td_calendar.pi_flexform.sheet_template">Template</label>
+			<label index="td_calendar.pi_flexform.sheet_category">Category Settings</label>
+			<label index="td_calendar.pi_flexform.sheet_misc">Other Settings</label>
+			<label index="td_calendar.pi_flexform.what_to_display">Display</label>
+			<label index="td_calendar.pi_flexform.codeFromTS">Defined by TypoScript</label>
+			<label index="td_calendar.pi_flexform.LIST">Upcoming Listview</label>
+			<label index="td_calendar.pi_flexform.MONTH">Monthview</label>
+			<label index="td_calendar.pi_flexform.WEEK">Weekview</label>
+			<label index="td_calendar.pi_flexform.DAY">Dayview</label>
+			<label index="td_calendar.pi_flexform.SINGLE">Singleview</label>
+			<label index="td_calendar.pi_flexform.select_deselect_categories">Category mode:</label>
+			<label index="td_calendar.pi_flexform.category_selection_showAll">Show all (don't care about selection below)</label>
+			<label index="td_calendar.pi_flexform.category_selection_showSelected">Show items with selected categories (OR)</label>
+			<label index="td_calendar.pi_flexform.category_selection_showSelectedAND">Show items with selected categories (AND)</label>
+			<label index="td_calendar.pi_flexform.category_selection_DontShowSelected">Do NOT show items with selected categories (AND)</label>
+			<label index="td_calendar.pi_flexform.category_selection_DontShowSelectedOR">Do NOT show items with selected categories (OR)</label>
+			<label index="td_calendar.pi_flexform.category_selection">Category selection</label>
+			<label index="td_calendar.pi_flexform.itemsHeader">Special options:</label>
+			<label index="td_calendar.pi_flexform.miniCalendar">Show calendar as mini view</label>
+			<label index="td_calendar.pi_flexform.PIDdayDisplay">Day View Page of Mini Calendar</label>
+			<label index="td_calendar.pi_flexform.showWeeksAsRows">Show weeks as rows (def: cols)</label>
+			<label index="td_calendar.pi_flexform.onlyDaysofMonth">Don't show days outside of month</label>
+			<label index="td_calendar.pi_flexform.dayFormat">day format in month view (def:"%d")</label>
+			<label index="td_calendar.pi_flexform.maxDaynameLenght">Maximal day name length</label>
+			<label index="td_calendar.pi_flexform.startHour">View starts with the hour of the day:</label>	
+			<label index="td_calendar.pi_flexform.endHour">View ends with the hour of the day:</label>	
+			<label index="td_calendar.pi_flexform.showAsList">Show events as list</label>	
+			<label index="td_calendar.pi_flexform.showEventBegin">Show begin of event</label>
+			<label index="td_calendar.pi_flexform.hideExcEvents">Hide exception events in this view</label>
+			<label index="td_calendar.pi_flexform.showWeeksDisabled">Don't show calendar week</label>
+			<label index="td_calendar.pi_flexform.wrapItemCatLen">Maximal category title length</label>
+			<label index="td_calendar.pi_flexform.showMultiDayOnlyOnce">Show multi-day events only once</label>				
+			<label index="td_calendar.pi_flexform.template_file_ref">Template file</label>
+			<label index="td_calendar.pi_flexform.imageMaxWidth">Maximal image width in Singleview</label>
+			<label index="td_calendar.pi_flexform.imageMaxHeight">Maximal image height in Singleview</label>
+			<label index="td_calendar.pi_flexform.limit">Maximal number of Events in LIST</label>
+			<label index="td_calendar.pi_flexform.croppingLenght">Cropping teaser after ... characters</label>
+			<label index="td_calendar.pi_flexform.catImageMode">Category image mode</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_TS">Defined by TypoScript</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_dontshow">Don't show</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_shownolink">Show without link</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_catsel">Show as category selector</label>
+			<label index="td_calendar.pi_flexform.catImageMaxWidth">Maximal width of category image</label>
+			<label index="td_calendar.pi_flexform.catImageMaxHeight">Maximal height of category image</label>
+			<label index="td_calendar.pi_flexform.dateFormat">Date format (default: %a, %b %d, %Y)</label>
+			<label index="td_calendar.pi_flexform.timeFormat">Time Format (default: %I:%M %p)</label>
+			<label index="td_calendar.pi_flexform.PIDeventDisplay">Page of Singleview</label>
+			<label index="td_calendar.pi_flexform.PIDmonthDisplay">Page of Monthview</label>
+			<label index="td_calendar.pi_flexform.PIDlistDisplay">Page of Listview</label>
+			<label index="td_calendar.pi_flexform.showWeekasLink">show week-headers as link</label>
+			<label index="td_calendar.pi_flexform.PIDweekDisplay">Page of Weekview</label>
+			<label index="td_calendar.pi_flexform.PIDallEventsDisplay">Page for "All events" view</label>
+			<label index="td_calendar.pi_flexform.PIDsingleDayDisplay">Page of single dayview</label>
+			<label index="td_calendar.pi_flexform.hideViewSelection">Hide View-Selection</label>
+			<label index="td_calendar.pi_flexform.startingpoint">Page(s) with calendar records</label>
+			<label index="td_calendar.pi_flexform.recursive">Recursive</label>
+			<label index="td_calendar.pi_flexform.recursive.I.0">0 levels</label>
+			<label index="td_calendar.pi_flexform.recursive_TS">Defined by TypoScript</label>	
+			<label index="td_calendar.pi_flexform.additionalColumnAtEnd">Additional column at the end of table</label>
+			<label index="td_calendar.pi_flexform.singleViewIsShy">Don\'t show an error, if no event id is given</label>
+			<label index="td_calendar.pi_flexform.forceSamePageFunc">Single view on same page as other views</label>			
+			<label index="td_calendar.pi_flexform.listEntryCount">Number of items in list view (def: 5)</label>
+			<label index="td_calendar.pi_flexform.listStartTime">Start time of list view(empty = current time)</label>	
+			<label index="td_calendar.pi_flexform.hideCategorySelection">Hide category selection</label>
+			<label index="td_calendar.pi_flexform.hideTooltips">Hide tooltips if enabled in TS</label>
+			<label index="td_calendar.categorymounts">td_calendar: Show categoriessaved in following pages</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="td_calendar">Kalendar</label>
+			<label index="td_calendar.pi_flexform.sheet_general">Allgemeine Einstellungen</label>
+			<label index="td_calendar.pi_flexform.sheet_template">Vorlage</label>
+			<label index="td_calendar.pi_flexform.sheet_category">Kategorieeinstellungen</label>
+			<label index="td_calendar.pi_flexform.sheet_misc">Weitere Einstellungen</label>
+			<label index="td_calendar.pi_flexform.what_to_display">Ansicht</label>
+			<label index="td_calendar.pi_flexform.codeFromTS">Definiert durch TypoScript</label>
+			<label index="td_calendar.pi_flexform.LIST">Upcoming-Ansicht</label>
+			<label index="td_calendar.pi_flexform.MONTH">Monatsansicht</label>
+			<label index="td_calendar.pi_flexform.WEEK">Wochenansicht</label>
+			<label index="td_calendar.pi_flexform.DAY">Tagesansicht</label>
+			<label index="td_calendar.pi_flexform.SINGLE">Einzelansicht</label>
+			<label index="td_calendar.pi_flexform.select_deselect_categories">Kategoriemodus</label>
+			<label index="td_calendar.pi_flexform.category_selection_showAll">Zeige alle (ignoriere die folgende Auswahl)</label>
+			<label index="td_calendar.pi_flexform.category_selection_showSelected">Zeige Veranstaltungen mit gewählten Kategorien (ODER)</label>
+			<label index="td_calendar.pi_flexform.category_selection_showSelectedAND">Zeige Veranstaltungen mit gewählten Kategorien (UND)</label>
+			<label index="td_calendar.pi_flexform.category_selection_DontShowSelected">Zeige KEINE Veranstaltungen mit gewählten Kategorien (UND)</label>
+			<label index="td_calendar.pi_flexform.category_selection_DontShowSelectedOR">Zeige KEINE Veranstaltungen mit gewählten Kategorien (ODER)</label>
+			<label index="td_calendar.pi_flexform.category_selection">Kategorieauswahl</label>
+			<label index="td_calendar.pi_flexform.itemsHeader">Besondere Optionen</label>
+			<label index="td_calendar.pi_flexform.miniCalendar">Zeige Kalender als Miniansicht</label>
+			<label index="td_calendar.pi_flexform.PIDdayDisplay">Tagesansicht für Minikalender</label>
+			<label index="td_calendar.pi_flexform.hideViewSelection">Verberge Ansichten-Auswahl</label>
+			<label index="td_calendar.pi_flexform.PIDsingleDayDisplay">Seite der Tagesansicht</label>
+			<label index="td_calendar.pi_flexform.PIDallEventsDisplay">Seite für "Alle Termine"-Ansicht</label>
+			<label index="td_calendar.pi_flexform.showWeeksAsRows">Zeige Woche in der Reihe (Standard: Spalten)</label>
+			<label index="td_calendar.pi_flexform.showWeekasLink">Zeige Woche als Link</label>
+			<label index="td_calendar.pi_flexform.onlyDaysofMonth">Tage außerhalb des Monats nicht anzeigen</label>
+			<label index="td_calendar.pi_flexform.dayFormat">Tagformatierung (Standard:"%d")</label>
+			<label index="td_calendar.pi_flexform.maxDaynameLenght">Maximale Länge der Tagesabkürzung</label>
+			<label index="td_calendar.pi_flexform.startHour">Ansicht startet mit der Stunde des Tages:</label>	
+			<label index="td_calendar.pi_flexform.endHour">Ansicht endet mit der Stunde des Tages:</label>	
+			<label index="td_calendar.pi_flexform.showAsList">Zeige Ereignisse als Liste</label>
+			<label index="td_calendar.pi_flexform.showEventBegin">Zeige Beginn des Ereignisses</label>
+			<label index="td_calendar.pi_flexform.hideExcEvents">Verberge Ausnahmeereignisse in dieser Ansicht</label>
+			<label index="td_calendar.pi_flexform.showWeeksDisabled">Verberge die Kalenderwochen</label>
+			<label index="td_calendar.pi_flexform.wrapItemCatLen">Maximale Länge der Kategorietitel</label>
+			<label index="td_calendar.pi_flexform.showMultiDayOnlyOnce">Mehrtägige Ereignisse nur einmal anzeigen</label>	
+			<label index="td_calendar.pi_flexform.template_file_ref">Templatedatei</label>
+			<label index="td_calendar.pi_flexform.imageMaxWidth">Maximale Bildbreite in Einzelansicht</label>
+			<label index="td_calendar.pi_flexform.imageMaxHeight">Maximale Bildhöhe in Einzelansicht</label>
+			<label index="td_calendar.pi_flexform.limit">Maximale Anzahl von Veranstaltungen in Listenansicht</label>
+			<label index="td_calendar.pi_flexform.croppingLenght">Abschneiden von Anriss nach ... Zeichen</label>
+			<label index="td_calendar.pi_flexform.catImageMode">Kategoriebildmodus</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_TS">Definiert durch TypoScript</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_dontshow">Nicht anzeigen</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_shownolink">Anzeigen ohne Link</label>
+			<label index="td_calendar.pi_flexform.catLinkMode_catsel">Anzeigen als Kategorieauswahl</label>
+			<label index="td_calendar.pi_flexform.catImageMaxWidth">Maximale Breite von Kategoriebildern</label>
+			<label index="td_calendar.pi_flexform.catImageMaxHeight">Maximale Höhe von Kategoriebildern</label>
+			<label index="td_calendar.pi_flexform.dateFormat">Datumsformat (Standard: %a, %d.%b.%Y)</label>
+			<label index="td_calendar.pi_flexform.timeFormat">Zeitformat (Standard: %I:%M %p)</label>
+			<label index="td_calendar.pi_flexform.PIDeventDisplay">Seite der Einzelansicht</label>
+			<label index="td_calendar.pi_flexform.PIDmonthDisplay">Seite der Monatsansicht</label>
+			<label index="td_calendar.pi_flexform.PIDlistDisplay">Seite der Listenansicht</label>
+			<label index="td_calendar.pi_flexform.startingpoint">Seite(n) mit Kalender-Datensätzen</label>
+			<label index="td_calendar.pi_flexform.recursive">Rekursiv</label>
+			<label index="td_calendar.pi_flexform.recursive.I.0">0 Ebenen</label>
+			<label index="td_calendar.pi_flexform.recursive_TS">Definiert durch TypoScript</label>
+			<label index="td_calendar.pi_flexform.additionalColumnAtEnd">Zusätzliche Spalte am Ende der Tabelle</label>
+			<label index="td_calendar.pi_flexform.singleViewIsShy">Zeige keine Fehlermeldung, wenn keine UID übergeben</label>
+			<label index="td_calendar.pi_flexform.forceSamePageFunc">Einzelansicht auf gleicher Seite wie andere Ansichten</label>
+			<label index="td_calendar.pi_flexform.listEntryCount">Anzahl Ereignisse in Listenansicht (def: 5)</label>
+			<label index="td_calendar.pi_flexform.listStartTime">Startzeit der Listenansicht (leer = aktuelle Zeit)</label>
+			<label index="td_calendar.pi_flexform.hideCategorySelection">Verberge Kategorieauswahl</label>
+			<label index="td_calendar.pi_flexform.hideTooltips">Verberge Tooltips, wenn sie per Typoscript aktiviert sind</label>
+			<label index="td_calendar.categorymounts">td_calendar: Zeige Kategorien, die in nachfolgenden Seiten gespeichert sind</label>
+		</languageKey>
+	</data>
+</T3locallang>

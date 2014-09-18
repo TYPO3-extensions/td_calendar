@@ -1,0 +1,5 @@
+2012-07-19 Thomas Dudzak <thomas.dudzak@gmx.net>	* [UPDATE] Constants are now editable in constants editor, real-url-examples are now part of the package, updated manual, thanks to Holger Hinkerohe	* [BUGFIX] days were not linked in mini calendar month view. thanks to mike sch for the bug report. 	* [BUGFIX] broken dayview after update 	* [BUGFIX] not existing variables were treated by array functions - not valid and performance killer 	* [BUGFIX] Updated manual, updated file referenz and php script documentation2012-05-08 Thomas Dudzak <thomas.dudzak@gmx.net>
+	* [BUGFIX] not existing variables were treated by array functions. non valid code and performance killers
+2011-09-08 Thomas Dudzak  <thomas.dudzak@gmx.net>
+	* initial code generated with kickstarter
+	

@@ -1,0 +1,245 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:11:"td_calendar";s:5:"descr";s:0:"";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:12:{s:14:"MD5_28b11e99ee";a:4:{s:8:"filename";s:14:"ext_emconf.php";s:8:"filesize";i:2656;s:6:"header";N;s:3:"DAT";a:0:{}}s:14:"MD5_650ba9004d";a:4:{s:8:"filename";s:17:"ext_localconf.php";s:8:"filesize";i:660;s:6:"header";N;s:3:"DAT";a:0:{}}s:14:"MD5_78af9ebebb";a:4:{s:8:"filename";s:14:"ext_tables.php";s:8:"filesize";i:5541;s:6:"header";N;s:3:"DAT";a:0:{}}s:14:"MD5_a3d98baa72";a:4:{s:8:"filename";s:7:"tca.php";s:8:"filesize";i:32072;s:6:"header";N;s:3:"DAT";a:0:{}}s:14:"MD5_3b77c18e14";a:4:{s:8:"filename";s:31:"pi1/class.tx_tdcalendar_pi1.php";s:8:"filesize";i:5900;s:6:"header";a:5:{s:4:"text";s:56:"
+
+Plugin 'TD Calendar' for the 'td_calendar' extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:52:"@author	Thomas Dudzak <thomas@buergerbuero-borna.de>";i:1;s:14:"@package	TYPO3";i:2;s:25:"@subpackage	tx_tdcalendar";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:44:"Thomas Dudzak <thomas@buergerbuero-borna.de>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_tdcalendar ";}}}s:3:"DAT";a:3:{i:1;a:8:{s:6:"header";s:59:"class tx_tdcalendar_pi1 extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:17:"tx_tdcalendar_pi1";s:4:"cDat";a:5:{s:4:"text";s:56:"
+
+Plugin 'TD Calendar' for the 'td_calendar' extension.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:52:"@author	Thomas Dudzak <thomas@buergerbuero-borna.de>";i:1;s:14:"@package	TYPO3";i:2;s:25:"@subpackage	tx_tdcalendar";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:44:"Thomas Dudzak <thomas@buergerbuero-borna.de>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_tdcalendar ";}}}s:7:"content";s:0:"";s:12:"content_size";i:291;s:13:"content_lines";i:6;s:6:"atLine";i:48;}i:3;a:4:{s:6:"header";s:32:"function main($content, $conf) {";s:11:"parentClass";s:17:"tx_tdcalendar_pi1";s:4:"cDat";a:3:{s:4:"text";s:32:"
+
+The main method of the PlugIn
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:28:"$content: The PlugIn content";}i:1;a:2:{i:0;s:5:"array";i:1;s:34:"$conf: The TS-PlugIn configuration";}}s:6:"return";a:2:{i:0;s:3:"The";i:1;s:40:"content that is displayed on the website";}}s:6:"atLine";i:62;}i:5;a:7:{s:6:"header";s:17:"function init() {";s:11:"parentClass";s:17:"tx_tdcalendar_pi1";s:4:"cDat";a:3:{s:4:"text";s:73:"
+
+initialize function: read and set main values for plugin configuration
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:2675;s:13:"content_lines";i:52;s:6:"atLine";i:108;}}}s:14:"MD5_74f258e48d";a:4:{s:8:"filename";s:39:"pi1/class.tx_tdcalendar_pi1_dayView.php";s:8:"filesize";i:9009;s:6:"header";N;s:3:"DAT";a:5:{i:1;a:8:{s:6:"header";s:67:"class tx_tdcalendar_pi1_dayView extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:25:"tx_tdcalendar_pi1_dayView";s:4:"cDat";a:3:{s:4:"text";s:414:"
+
+[CLASS/FUNCTION INDEX of SCRIPT]
+
+
+
+  39: class tx_tdcalendar_pi1_dayView extends tx_tdcalendar_pi1_library
+  46:     function displayDay()
+ 105:     function dayTable($firstDay,$lastDay,$entries)
+ 136:     function hourTable($firstDay,$lastDay,$events,$exc_events)
+ 214:     function listTable($events,$exc_events)
+
+TOTAL FUNCTIONS: 4
+(This index is automatically created/updated by the extension "extdeveval")
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:3;s:13:"content_lines";i:1;s:6:"atLine";i:37;}i:3;a:7:{s:6:"header";s:23:"function displayDay() {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_dayView";s:4:"cDat";a:3:{s:4:"text";s:76:"
+
+Diplay Day Function: initialize Day view of calendar and renders day view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:17:"rendered day view";}}s:7:"content";s:0:"";s:12:"content_size";i:2289;s:13:"content_lines";i:50;s:6:"atLine";i:44;}i:5;a:7:{s:6:"header";s:48:"function dayTable($firstDay,$lastDay,$entries) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_dayView";s:4:"cDat";a:3:{s:4:"text";s:46:"
+
+Day Table function : rendering of day table
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:46:"$firstDay : start time of dayview as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:42:"$lastDay: end time of dayview as timestamp";}i:2;a:2:{i:0;s:5:"array";i:1;s:43:"$entries: array of calendar entries from DB";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:18:"rendered day table";}}s:7:"content";s:0:"";s:12:"content_size";i:964;s:13:"content_lines";i:21;s:6:"atLine";i:103;}i:7;a:4:{s:6:"header";s:60:"function hourTable($firstDay,$lastDay,$events,$exc_events) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_dayView";s:4:"cDat";a:3:{s:4:"text";s:80:"
+
+Hour Table function : rendering of table by hours if listview is not selected
+";s:5:"param";a:4:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:46:"$firstDay : start time of dayview as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:42:"$lastDay: end time of dayview as timestamp";}i:2;a:2:{i:0;s:5:"array";i:1;s:43:"$entries: array of calendar entries from DB";}i:3;a:2:{i:0;s:5:"array";i:1;s:55:"$exc_events: array of calendar exception events from DB";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:23:"rendered table by hours";}}s:6:"atLine";i:134;}i:9;a:7:{s:6:"header";s:40:"function listTable($events,$exc_events){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_dayView";s:4:"cDat";a:3:{s:4:"text";s:76:"
+
+Hour Table function : rendering of table by hours if listview is selected
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;s:43:"$entries: array of calendar entries from DB";}i:1;a:2:{i:0;s:5:"array";i:1;s:55:"$exc_events: array of calendar exception events from DB";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:22:"rendered table as list";}}s:7:"content";s:0:"";s:12:"content_size";i:801;s:13:"content_lines";i:24;s:6:"atLine";i:212;}}}s:14:"MD5_8a607a028a";a:4:{s:8:"filename";s:39:"pi1/class.tx_tdcalendar_pi1_library.php";s:8:"filesize";i:29194;s:6:"header";N;s:3:"DAT";a:25:{i:1;a:7:{s:6:"header";s:54:"class tx_tdcalendar_pi1_library extends tslib_pibase {";s:5:"class";i:1;s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:7:"content";s:0:"";s:12:"content_size";i:2;s:13:"content_lines";i:0;s:6:"atLine";i:60;}i:3;a:7:{s:6:"header";s:22:"function configure() {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:66:"
+
+Configure function : configures default vars and local language
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:192;s:13:"content_lines";i:7;s:6:"atLine";i:66;}i:5;a:7:{s:6:"header";s:31:"function initViewClass($class){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:64:"
+
+Init view class function : initialize requiered class of view
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:31:"$class: name of requiered class";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:25:"$class: initialized class";}}s:7:"content";s:0:"";s:12:"content_size";i:948;s:13:"content_lines";i:27;s:6:"atLine";i:80;}i:7;a:7:{s:6:"header";s:61:"function fetchCurrValue($value, $std, $sheet, $numeric = 0) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:119:"
+
+Standard Format fetching : fetches standard format for default vars by checking FlexForm and TypoScipt configuration
+";s:5:"param";a:4:{i:0;a:2:{i:0;s:6:"string";i:1;s:35:"$value : key of value to be fetched";}i:1;a:2:{i:0;s:6:"string";i:1;s:74:"$std : standard value / fallback, if either in FF and TS is no value given";}i:2;a:2:{i:0;s:6:"string";i:1;s:43:"$sheet: sheet of FF to search in for values";}i:3;a:2:{i:0;s:6:"[type]";i:1;s:13:"$numeric: ...";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:71:"$this->conf[$value]: value of searched key in FF, TS or Std (hardcoded)";}}s:7:"content";s:0:"";s:12:"content_size";i:278;s:13:"content_lines";i:9;s:6:"atLine";i:117;}i:9;a:7:{s:6:"header";s:50:"function fetchConfigurationValue($param, $sheet) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:75:"
+
+Fetch Configuration Value function : fetches configuration from FlexForm
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:52:"$param : key, the function searcghes for in Flexform";}i:1;a:2:{i:0;s:6:"string";i:1;s:42:"$sheet: FF-sheet, the function searches in";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:60:"$value: value found in FF, it's possible, the value is empty";}}s:7:"content";s:0:"";s:12:"content_size";i:111;s:13:"content_lines";i:4;s:6:"atLine";i:134;}i:11;a:7:{s:6:"header";s:27:"function fetchUserTime () {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:122:"
+
+Fetch User Time function : fetches current Time from GET-Parameters. If not exist or incriminated returns current time.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:30:"$value: User Time as Timestamp";}}s:7:"content";s:0:"";s:12:"content_size";i:603;s:13:"content_lines";i:8;s:6:"atLine";i:144;}i:13;a:7:{s:6:"header";s:33:"function getCategorySelection() {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:75:"
+
+Get Category Selection function : renders category selection, if enabled
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:27:"rendered category selection";}}s:7:"content";s:0:"";s:12:"content_size";i:1289;s:13:"content_lines";i:45;s:6:"atLine";i:158;}i:15;a:7:{s:6:"header";s:65:"function getCategoryQuery($trow='tx_tdcalendar_categories.uid') {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:105:"
+
+get Category Query function : build where-clause for categories in dependence of flexform or ts-config
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:19:"$trow: effected row";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:20:"$query: where-clause";}}s:7:"content";s:0:"";s:12:"content_size";i:307;s:13:"content_lines";i:14;s:6:"atLine";i:210;}i:17;a:7:{s:6:"header";s:99:"function selectInputOnChange($name, $array, $selected="", $onChange="", $size=1, $emptyItem=false){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:87:"
+
+Select Input On Change function : renders a select-field with onChange functionality
+";s:5:"param";a:6:{i:0;a:2:{i:0;s:6:"string";i:1;s:27:"$name: name of select field";}i:1;a:2:{i:0;s:5:"array";i:1;s:29:"$array: array of select items";}i:2;a:2:{i:0;s:6:"string";i:1;s:34:"$selected: uid of selected element";}i:3;a:2:{i:0;s:6:"string";i:1;s:43:"$onChange: onChange handling to be rendered";}i:4;a:2:{i:0;s:6:"string";i:1;s:22:"$size: size of element";}i:5;a:2:{i:0;s:6:"string";i:1;s:47:"$emptyItem: show a empty Item? virtualy boolean";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:26:"rendered selct input field";}}s:7:"content";s:0:"";s:12:"content_size";i:1166;s:13:"content_lines";i:24;s:6:"atLine";i:236;}i:19;a:7:{s:6:"header";s:35:"function getEventsArray($from,$to){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:95:"
+
+Get Events Array function : fetches all possible related Events from DB and returns an Array
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32:"$from: starttime of current view";}i:1;a:2:{i:0;s:6:"string";i:1;s:29:"$end: endtime of current view";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:23:"array of related items.";}}s:7:"content";s:0:"";s:12:"content_size";i:1380;s:13:"content_lines";i:37;s:6:"atLine";i:268;}i:21;a:7:{s:6:"header";s:49:"function getUpcomingEventsArray($from, $to='0') {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:123:"
+
+Get Upcoming Recurring Events Array function : fetches all related events from DB and returns an Array for upcoming view
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32:"$from: starttime of current view";}i:1;a:2:{i:0;s:6:"string";i:1;s:28:"$to: endtime of current view";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:38:"$array: array of items in current view";}}s:7:"content";s:0:"";s:12:"content_size";i:1636;s:13:"content_lines";i:50;s:6:"atLine";i:313;}i:23;a:7:{s:6:"header";s:50:"function getUpcomingRecurEventsArray($from, $to) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:121:"
+
+Get Upcoming Recurring Events Array function : fetches recurring Events from DB and returns an Array for upcoming view
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32:"$from: starttime of current view";}i:1;a:2:{i:0;s:6:"string";i:1;s:28:"$to: endtime of current view";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:38:"$array: array of items in current view";}}s:7:"content";s:0:"";s:12:"content_size";i:1488;s:13:"content_lines";i:46;s:6:"atLine";i:371;}i:25;a:7:{s:6:"header";s:35:"function makeArray($res,$from,$to){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:65:"
+
+Make Array function : builds an Array of entries from Database
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:5:"array";i:1;s:50:"$res : key, the function searcghes for in Flexform";}i:1;a:2:{i:0;s:6:"string";i:1;s:41:"$from: FF-sheet, the function searches in";}i:2;a:2:{i:0;s:6:"string";i:1;s:57:"$to: value found in FF, it's possible, the value is empty";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:21:"array of daily events";}}s:7:"content";s:0:"";s:12:"content_size";i:388;s:13:"content_lines";i:14;s:6:"atLine";i:426;}i:27;a:7:{s:6:"header";s:24:"function initPidList() {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:83:"
+
+Init PID List function : build a string for all PIDs, the current Plugin effects
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:492;s:13:"content_lines";i:13;s:6:"atLine";i:446;}i:29;a:7:{s:6:"header";s:55:"function getPagesQuery($table=' tx_tdcalendar_events'){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:75:"
+
+get Pages Query function : builds a string for database selection by PID
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:61:"$table : table to be selected, def. is 'tx_tdcalendar_events'";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:20:"string for selection";}}s:7:"content";s:0:"";s:12:"content_size";i:540;s:13:"content_lines";i:14;s:6:"atLine";i:466;}i:31;a:6:{s:6:"header";s:35:"function setItems($item,$from,$to){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:7:"content";s:0:"";s:12:"content_size";i:898;s:13:"content_lines";i:22;s:6:"atLine";i:482;}i:33;a:6:{s:6:"header";s:47:"function setRecurItemsList($item, $from, $to) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:7:"content";s:0:"";s:12:"content_size";i:3214;s:13:"content_lines";i:88;s:6:"atLine";i:528;}i:35;a:7:{s:6:"header";s:67:"function setRecItemArray($from, $to, $item, $getdate,$item_array) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:101:"
+
+Set Recurring Item Array function : build events array for single items per call by setRecItemList
+";s:5:"param";a:5:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:47:"$from : start time of current view as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:43:"$to : end time of current view as timestamp";}i:2;a:2:{i:0;s:5:"array";i:1;s:74:"$getdate : array of values of recurration (intervall, last interval, etc.)";}i:3;a:2:{i:0;s:5:"array";i:1;s:26:"$item_array : current item";}i:4;a:2:{i:0;s:6:"[type]";i:1;s:16:"$item_array: ...";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:54:"$itemarray: event array (could be more than one entry)";}}s:7:"content";s:0:"";s:12:"content_size";i:1137;s:13:"content_lines";i:34;s:6:"atLine";i:627;}i:37;a:7:{s:6:"header";s:55:"function getLastIntervalByDay($begin, $to, $interval) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:94:"
+
+get Last Interval by Day function : calculating last occurrence of an event by day (modulo)
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:48:"$begin : start time of current view as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:43:"$to : end time of current view as timestamp";}i:2;a:2:{i:0;s:6:"string";i:1;s:53:"$interval : user defined interval of reccurring event";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:47:"$item: array of interval, last occurrence, etc.";}}s:7:"content";s:0:"";s:12:"content_size";i:239;s:13:"content_lines";i:12;s:6:"atLine";i:670;}i:39;a:7:{s:6:"header";s:57:"function getLastIntervalByMonth($begin, $to, $interval) {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:108:"
+
+get Last Interval by Month function : calculating last occurrence of an event by month (virtually modulo)
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:48:"$begin : start time of current view as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:43:"$to : end time of current view as timestamp";}i:2;a:2:{i:0;s:6:"string";i:1;s:53:"$interval : user defined interval of reccurring event";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:47:"$item: array of interval, last occurrence, etc.";}}s:7:"content";s:0:"";s:12:"content_size";i:559;s:13:"content_lines";i:19;s:6:"atLine";i:691;}i:41;a:7:{s:6:"header";s:47:"function makeEventLink($event,$day, $title=''){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:64:"
+
+Make Event Link function : linkbuiling for single events view
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:5:"array";i:1;s:21:"$event : events array";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:31:"$day : current day as timestamp";}i:2;a:2:{i:0;s:6:"string";i:1;s:56:"$title : alternative title for event link, def. is empty";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:27:"$link : rendered event link";}}s:7:"content";s:0:"";s:12:"content_size";i:984;s:13:"content_lines";i:28;s:6:"atLine";i:719;}i:43;a:7:{s:6:"header";s:33:"function makeLink($label, $link){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:72:"
+
+Make Link function : internal link builing for the extension by typo3
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:23:"$label : label for link";}i:1;a:2:{i:0;s:6:"string";i:1;s:16:"$link : link url";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:13:"rendered link";}}s:7:"content";s:0:"";s:12:"content_size";i:170;s:13:"content_lines";i:6;s:6:"atLine";i:755;}i:45;a:7:{s:6:"header";s:41:"function submitBack($backbutton = false){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:48:"
+
+Submit Back function : output for BackButtons
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:43:"$backbutton : alternative back button label";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:22:"$out: backbutton style";}}s:7:"content";s:0:"";s:12:"content_size";i:228;s:13:"content_lines";i:6;s:6:"atLine";i:768;}i:47;a:4:{s:6:"header";s:24:"function printErrors() {";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:51:"
+
+print Errors function : print Errors to frontend
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:29:"$c: string of recorded errors";}}s:6:"atLine";i:780;}i:49;a:7:{s:6:"header";s:32:"function extSort($aItem,$bItem){";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_library";s:4:"cDat";a:3:{s:4:"text";s:33:"
+
+extSort function : sort events
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;s:20:"$aItem : event array";}i:1;a:2:{i:0;s:5:"array";i:1;s:20:"$bItem : event array";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:4:"sort";}}s:7:"content";s:0:"";s:12:"content_size";i:507;s:13:"content_lines";i:24;s:6:"atLine";i:796;}}}s:14:"MD5_cbb2eca08e";a:4:{s:8:"filename";s:40:"pi1/class.tx_tdcalendar_pi1_listView.php";s:8:"filesize";i:4155;s:6:"header";N;s:3:"DAT";a:3:{i:1;a:8:{s:6:"header";s:68:"class tx_tdcalendar_pi1_listView extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:26:"tx_tdcalendar_pi1_listView";s:4:"cDat";a:3:{s:4:"text";s:278:"
+
+[CLASS/FUNCTION INDEX of SCRIPT]
+
+
+
+  37: class tx_tdcalendar_pi1_listView extends tx_tdcalendar_pi1_library
+  44:     function displayList()
+  78:     function listTable($events)
+
+TOTAL FUNCTIONS: 2
+(This index is automatically created/updated by the extension "extdeveval")
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:4;s:13:"content_lines";i:1;s:6:"atLine";i:35;}i:3;a:4:{s:6:"header";s:24:"function displayList() {";s:11:"parentClass";s:26:"tx_tdcalendar_pi1_listView";s:4:"cDat";a:3:{s:4:"text";s:83:"
+
+Diplay List Function: initialize upcoming list view of calendar and renders view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:18:"rendered list view";}}s:6:"atLine";i:42;}i:5;a:7:{s:6:"header";s:29:"function listTable($events) {";s:11:"parentClass";s:26:"tx_tdcalendar_pi1_listView";s:4:"cDat";a:3:{s:4:"text";s:57:"
+
+list Table function : rendering of upcoming list table
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:42:"$events: array of calendar entries from DB";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:28:"rendered upcoming list table";}}s:7:"content";s:0:"";s:12:"content_size";i:1175;s:13:"content_lines";i:31;s:6:"atLine";i:76;}}}s:14:"MD5_d1c419088f";a:4:{s:8:"filename";s:41:"pi1/class.tx_tdcalendar_pi1_monthView.php";s:8:"filesize";i:16435;s:6:"header";N;s:3:"DAT";a:9:{i:1;a:8:{s:6:"header";s:69:"class tx_tdcalendar_pi1_monthView extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:566:"
+
+[CLASS/FUNCTION INDEX of SCRIPT]
+
+
+
+  43: class tx_tdcalendar_pi1_monthView extends tx_tdcalendar_pi1_library
+  49:     function displayMonth()
+ 112:     function monthsNavi()
+ 160:     function calendarTable()
+ 188:     function calendarTableCol($mondayPre,$mondayPost)
+ 252:     function calendarTableRow($mondayPre,$mondayPost)
+ 309:     function getDayEvents($day,$col)
+ 370:     function buildDayLink($day, $m, $d)
+ 393:     function wrapSingleItem($item,$event)
+
+TOTAL FUNCTIONS: 8
+(This index is automatically created/updated by the extension "extdeveval")
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:3;s:13:"content_lines";i:0;s:6:"atLine";i:41;}i:3;a:7:{s:6:"header";s:25:"function displayMonth() {";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:82:"
+
+Diplay Month Function: initialize month view of calendar and renders month view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:19:"rendered month view";}}s:7:"content";s:0:"";s:12:"content_size";i:2787;s:13:"content_lines";i:57;s:6:"atLine";i:47;}i:5;a:7:{s:6:"header";s:23:"function monthsNavi() {";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:85:"
+
+Month Navigation function : rendering code for month navigation marker of template
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:31:"$out: rendered month navigation";}}s:7:"content";s:0:"";s:12:"content_size";i:1578;s:13:"content_lines";i:42;s:6:"atLine";i:110;}i:7;a:7:{s:6:"header";s:26:"function calendarTable() {";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:88:"
+
+Month Table function : fetch entries from DB and initialize row- or col- view of view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:34:"rendered month table as col or row";}}s:7:"content";s:0:"";s:12:"content_size";i:763;s:13:"content_lines";i:20;s:6:"atLine";i:158;}i:9;a:7:{s:6:"header";s:50:"function calendarTableCol($mondayPre,$mondayPost){";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:62:"
+
+Month Table function : rendering of month table as col view
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:45:"$mondayPre : last monday before current month";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:45:"$mondayPost: first minday after current month";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:26:"$out: rendered month table";}}s:7:"content";s:0:"";s:12:"content_size";i:2292;s:13:"content_lines";i:56;s:6:"atLine";i:186;}i:11;a:7:{s:6:"header";s:50:"function calendarTableRow($mondayPre,$mondayPost){";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:62:"
+
+Month Table function : rendering of month table as row view
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:45:"$mondayPre : last monday before current month";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:45:"$mondayPost: first minday after current month";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:26:"$out: rendered month table";}}s:7:"content";s:0:"";s:12:"content_size";i:2148;s:13:"content_lines";i:49;s:6:"atLine";i:250;}i:13;a:7:{s:6:"header";s:33:"function getDayEvents($day,$col){";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:95:"
+
+Get Day Events function : rendering of each day in month view with or without single entries
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:30:"$day : single day as timestamp";}i:1;a:2:{i:0;s:6:"string";i:1;s:37:"$col : current subpart for single day";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:27:"rendered single day subpart";}}s:7:"content";s:0:"";s:12:"content_size";i:1929;s:13:"content_lines";i:52;s:6:"atLine";i:307;}i:15;a:4:{s:6:"header";s:37:"function buildDayLink($day, $m, $d) {";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:70:"
+
+Build Day Link function : rendebuild link for minicalendar day view
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:31:"$day : current day as timestamp";}i:1;a:2:{i:0;s:6:"string";i:1;s:17:"$m: current month";}i:2;a:2:{i:0;s:6:"string";i:1;s:15:"$d: current day";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:30:"rendered link or simple string";}}s:6:"atLine";i:368;}i:17;a:7:{s:6:"header";s:38:"function wrapSingleItem($item,$event){";s:11:"parentClass";s:27:"tx_tdcalendar_pi1_monthView";s:4:"cDat";a:3:{s:4:"text";s:64:"
+
+Wrap Single Item function : rendering of single calendar item
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:27:"$item: title of single item";}i:1;a:2:{i:0;s:5:"array";i:1;s:32:"$event: current event item array";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:20:"rendered single item";}}s:7:"content";s:0:"";s:12:"content_size";i:679;s:13:"content_lines";i:16;s:6:"atLine";i:391;}}}s:14:"MD5_3142902a58";a:4:{s:8:"filename";s:42:"pi1/class.tx_tdcalendar_pi1_singleView.php";s:8:"filesize";i:17709;s:6:"header";N;s:3:"DAT";a:10:{i:1;a:8:{s:6:"header";s:70:"class tx_tdcalendar_pi1_singleView extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:615:"
+
+[CLASS/FUNCTION INDEX of SCRIPT]
+
+
+
+  44: class tx_tdcalendar_pi1_singleView extends tx_tdcalendar_pi1_library
+  50:     function displaySingle()
+  96:     function getSingleArray($event)
+ 124:     function getArrayFromUID($uid, $table)
+ 145:     function buildSingleOutput($row)
+ 242:     function buildLocationOutput($row)
+ 293:     function buildOrganizerOutput($row)
+ 344:     function getOrganizerLink($organizer)
+ 364:     function getLocationLink($location)
+ 385:     function queryFromSingleUID($uid, $table)
+
+TOTAL FUNCTIONS: 9
+(This index is automatically created/updated by the extension "extdeveval")
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:3;s:13:"content_lines";i:0;s:6:"atLine";i:42;}i:3;a:7:{s:6:"header";s:26:"function displaySingle() {";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:107:"
+
+Diplay Month Function: initialize single view of calendar and renders single, organizer or location view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:52:"rendered single, organizer or location view or error";}}s:7:"content";s:0:"";s:12:"content_size";i:1469;s:13:"content_lines";i:39;s:6:"atLine";i:48;}i:5;a:7:{s:6:"header";s:32:"function getSingleArray($event){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:55:"
+
+Get Single Array function : get single array from db
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:28:"$event : uid of single event";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:21:"array of single event";}}s:7:"content";s:0:"";s:12:"content_size";i:827;s:13:"content_lines";i:20;s:6:"atLine";i:94;}i:7;a:7:{s:6:"header";s:39:"function getArrayFromUID($uid, $table){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:79:"
+
+Get Array form UID function : get single location or organizer array from db
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:18:"$uid : uid of item";}i:1;a:2:{i:0;s:6:"string";i:1;s:52:"$table : table, from which the uid is to be selected";}}s:6:"return";a:2:{i:0;s:5:"array";i:1;s:21:"array of single array";}}s:7:"content";s:0:"";s:12:"content_size";i:312;s:13:"content_lines";i:14;s:6:"atLine";i:122;}i:9;a:7:{s:6:"header";s:33:"function buildSingleOutput($row){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:53:"
+
+Build Single Output function : renders single view
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:27:"$row : array of single view";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:20:"rendered single view";}}s:7:"content";s:0:"";s:12:"content_size";i:4934;s:13:"content_lines";i:90;s:6:"atLine";i:143;}i:11;a:7:{s:6:"header";s:35:"function buildLocationOutput($row){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:57:"
+
+Build Location Output function : renders location view
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:29:"$row : array of location view";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:22:"rendered location view";}}s:7:"content";s:0:"";s:12:"content_size";i:2489;s:13:"content_lines";i:44;s:6:"atLine";i:240;}i:13;a:7:{s:6:"header";s:36:"function buildOrganizerOutput($row){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:59:"
+
+Build Organizer Output function : renders organizer view
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:30:"$row : array of organizer view";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:23:"rendered organizer view";}}s:7:"content";s:0:"";s:12:"content_size";i:2487;s:13:"content_lines";i:44;s:6:"atLine";i:291;}i:15;a:7:{s:6:"header";s:38:"function getOrganizerLink($organizer){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:71:"
+
+Get Organizer Link function : build organizer link for organizer-UID
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:26:"$organizer : organizer uid";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:35:"rendered link for organizer from DB";}}s:7:"content";s:0:"";s:12:"content_size";i:589;s:13:"content_lines";i:13;s:6:"atLine";i:342;}i:17;a:4:{s:6:"header";s:36:"function getLocationLink($location){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:68:"
+
+Get Location Link function : build location link for location-UID
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:24:"$location : location uid";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:34:"rendered link for location from DB";}}s:6:"atLine";i:362;}i:19;a:7:{s:6:"header";s:42:"function queryFromSingleUID($uid, $table){";s:11:"parentClass";s:28:"tx_tdcalendar_pi1_singleView";s:4:"cDat";a:3:{s:4:"text";s:81:"
+
+Query from Single UID function : select array for location or organizer by uid
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:26:"$uid : uid  to be selected";}i:1;a:2:{i:0;s:6:"[type]";i:1;s:11:"$table: ...";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:12:"array of uid";}}s:7:"content";s:0:"";s:12:"content_size";i:323;s:13:"content_lines";i:13;s:6:"atLine";i:383;}}}s:14:"MD5_fb8def2607";a:4:{s:8:"filename";s:40:"pi1/class.tx_tdcalendar_pi1_weekView.php";s:8:"filesize";i:11739;s:6:"header";N;s:3:"DAT";a:4:{i:1;a:8:{s:6:"header";s:68:"class tx_tdcalendar_pi1_weekView extends tx_tdcalendar_pi1_library {";s:5:"class";i:1;s:11:"parentClass";s:26:"tx_tdcalendar_pi1_weekView";s:4:"cDat";a:3:{s:4:"text";s:352:"
+
+[CLASS/FUNCTION INDEX of SCRIPT]
+
+
+
+  38: class tx_tdcalendar_pi1_weekView extends tx_tdcalendar_pi1_library
+  44:     function displayWeek()
+ 114:     function weekTable($firstDay,$lastDay,$entries)
+ 170:     function dayTable($day,$events,$exc_events)
+
+TOTAL FUNCTIONS: 3
+(This index is automatically created/updated by the extension "extdeveval")
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}}s:7:"content";s:0:"";s:12:"content_size";i:4;s:13:"content_lines";i:0;s:6:"atLine";i:36;}i:3;a:7:{s:6:"header";s:24:"function displayWeek() {";s:11:"parentClass";s:26:"tx_tdcalendar_pi1_weekView";s:4:"cDat";a:3:{s:4:"text";s:79:"
+
+Diplay Week Function: initialize week view of calendar and renders week view
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:18:"rendered week view";}}s:7:"content";s:0:"";s:12:"content_size";i:2839;s:13:"content_lines";i:61;s:6:"atLine";i:42;}i:5;a:4:{s:6:"header";s:49:"function weekTable($firstDay,$lastDay,$entries) {";s:11:"parentClass";s:26:"tx_tdcalendar_pi1_weekView";s:4:"cDat";a:3:{s:4:"text";s:48:"
+
+Week Table function : rendering of week table
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:42:"$firstDay : first day of week as timestamp";}i:1;a:2:{i:0;s:9:"timestamp";i:1;s:39:"$lastDay: last day of week as timestamp";}i:2;a:2:{i:0;s:5:"array";i:1;s:42:"$entries: events for current week as array";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:19:"rendered week table";}}s:6:"atLine";i:112;}i:7;a:7:{s:6:"header";s:45:"function dayTable($day,$events,$exc_events) {";s:11:"parentClass";s:26:"tx_tdcalendar_pi1_weekView";s:4:"cDat";a:3:{s:4:"text";s:59:"
+
+Day Table function : rendering of day rows of week table
+";s:5:"param";a:3:{i:0;a:2:{i:0;s:9:"timestamp";i:1;s:31:"$day : current day as timestamp";}i:1;a:2:{i:0;s:5:"array";i:1;s:41:"$entries: events for current day as array";}i:2;a:2:{i:0;s:5:"array";i:1;s:53:"$exc_events: exception events for curent day as array";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:38:"rendered single day row for week table";}}s:7:"content";s:0:"";s:12:"content_size";i:4442;s:13:"content_lines";i:121;s:6:"atLine";i:168;}}}s:14:"MD5_20be01b8b9";a:4:{s:8:"filename";s:39:"pi1/class.tx_tdcalendar_pi1_wizicon.php";s:8:"filesize";i:2678;s:6:"header";a:5:{s:4:"text";s:35:"
+
+Class that adds the wizard icon.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:52:"@author	Thomas Dudzak <thomas@buergerbuero-borna.de>";i:1;s:14:"@package	TYPO3";i:2;s:25:"@subpackage	tx_tdcalendar";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:44:"Thomas Dudzak <thomas@buergerbuero-borna.de>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_tdcalendar ";}}}s:3:"DAT";a:3:{i:1;a:8:{s:6:"header";s:33:"class tx_tdcalendar_pi1_wizicon {";s:5:"class";i:1;s:11:"parentClass";s:25:"tx_tdcalendar_pi1_wizicon";s:4:"cDat";a:5:{s:4:"text";s:35:"
+
+Class that adds the wizard icon.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:52:"@author	Thomas Dudzak <thomas@buergerbuero-borna.de>";i:1;s:14:"@package	TYPO3";i:2;s:25:"@subpackage	tx_tdcalendar";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:44:"Thomas Dudzak <thomas@buergerbuero-borna.de>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_tdcalendar ";}}}s:7:"content";s:0:"";s:12:"content_size";i:6;s:13:"content_lines";i:1;s:6:"atLine";i:44;}i:3;a:4:{s:6:"header";s:29:"function proc($wizardItems)	{";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_wizicon";s:4:"cDat";a:3:{s:4:"text";s:36:"
+
+Processing the wizard items array
+";s:5:"param";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;s:30:"$wizardItems: The wizard items";}}s:6:"return";a:2:{i:0;s:8:"Modified";i:1;s:23:"array with wizard items";}}s:6:"atLine";i:52;}i:5;a:7:{s:6:"header";s:29:"function includeLocalLang()	{";s:11:"parentClass";s:25:"tx_tdcalendar_pi1_wizicon";s:4:"cDat";a:3:{s:4:"text";s:89:"
+
+Reads the [extDir]/locallang.xml and returns the $LOCAL_LANG array found in that file.
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:3:"The";i:1;s:26:"array with language labels";}}s:7:"content";s:0:"";s:12:"content_size";i:441;s:13:"content_lines";i:13;s:6:"atLine";i:72;}}}}}
